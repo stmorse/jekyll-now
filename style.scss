@@ -27,10 +27,11 @@ body {
 }
 
 .container {
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
+  position: relative;
   width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -60,11 +61,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #000000;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #1EAEDB;
     transition: .5s;
   }
 }
