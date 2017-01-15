@@ -20,6 +20,7 @@ html {
 body {
   background: $white;
   font-size: 1.5em;
+  line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222;
@@ -54,7 +55,8 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 }
 
 p {
-  margin: 15px 0;
+  margin: 0;
+  margin-top: 0;
 }
 
 a {
@@ -63,6 +65,7 @@ a {
 	cursor: pointer;
   &:hover, &:active {
     color: $blue;
+    transition: .5s;
   }
 }
 
