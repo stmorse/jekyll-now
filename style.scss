@@ -235,15 +235,34 @@ nav {
 // .main
 //
 
+ul.posts, ul.posts li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+ul.posts li {
+  margin-bottom: 20px; }
+ul.posts .datetime {
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+  width: 130px;
+  text-transform: uppercase;
+  float: right;
+  color: #999;
+  font-size: 10px;
+  text-align: right; }
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
 }
 
-.posts > .post:last-child {
+/* .posts > .post:last-child {
   padding-bottom: 1em;
   border-bottom: none;
-}
+} */
 
 .post {
   blockquote {
