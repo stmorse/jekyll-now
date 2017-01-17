@@ -6,7 +6,7 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
       <li>
-        <small class="date muted" data-time="{{ post.date }}">{{ post.date | date_to_string }} </small>
+        <small class="datetime muted" data-time="{{ post.date }}">{{ post.date | date_to_string }} </small>
         <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
       </li>
       
